@@ -8,7 +8,7 @@
 - A container is a isolated runtime  inside of Linux
 - A container provide a private machine like space on linux
 
-##On which OS it can run ?
+## On which OS it can run ?
 
 - Unix or Linux based OS ( unbuntu, debian,centOS ..)
 - OSX
@@ -44,7 +44,7 @@
 	- Quarterly releases for operations
 
 
-##ui tool
+## ui tool
 KiteMatic in dockerToolbox
 
 
