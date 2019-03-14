@@ -1,6 +1,6 @@
 # Modelization tools
 
-#Entity diagrams
+## Entity diagrams
 
 - JDL Studio : https://start.jhipster.tech/jdl-studio/
 
