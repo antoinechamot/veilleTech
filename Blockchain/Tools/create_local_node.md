@@ -45,3 +45,9 @@ geth --networkid 4224 --mine --minerthreads 1 --datadir "." --nodiscover --rpc -
 to be able to sign transactions
 11 eth.sendTransaction({from: eth.coinbase, to: eth.accounts[1], value: web3.toWei(10, "ether")})  =>
 send eth from one account to another
+
+
+
+# start node
+ cd ~/ChainSkills/private
+ ./startnode.cmd

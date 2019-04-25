@@ -41,3 +41,8 @@
 
 => https://github.com/atom/atom
 apm install  language-ethereum to install package for ethereum
+
+
+## Metamask
+
+=> https://slack.metamask.io
