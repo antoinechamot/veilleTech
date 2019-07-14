@@ -48,6 +48,19 @@
 KiteMatic in dockerToolbox
 
 
+## Docker images
+
+- An image defines a Docker Container
+- Images are immutable
+- Images are built in layers
+- Format of a full tag name is [REGISTRYHOST/][USERNAME/]NAME[:TAG]
+
+## Docker files
+
+It is a recipe for the image. It defines an image
+Each command create a layer for the image
+
+
 ## Commands
 https://springframework.guru/docker-cheat-sheet-for-spring-devlopers/
 

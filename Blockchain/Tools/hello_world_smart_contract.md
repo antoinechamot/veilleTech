@@ -88,6 +88,12 @@ web3.eth.getTransaction(*trshash*)
 web3.eth.getBlock(*blockhash*)
 web3.eth.sendTransaction({from : web3.eth.accounts[0], to : web3.eth.accounts[1], value : web3.toWei(5,"ether")}) => send 5 eth from one account to another
 
+# create project => truffle boxes
+truffle unbox chainskills/chainskills-box
+
+
+
 # Resources
 
 https://etherscan.io/opcode-tool => tool used to decompile binary bytecode into corresponding opcodes executed by ethereum VM (each opcode has code in gas)
+Empty exemple : http://github.com/chainskills/chainskills-box
