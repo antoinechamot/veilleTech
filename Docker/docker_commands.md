@@ -12,10 +12,17 @@ docker rmi <image name> : remove docker image
 docker rmi ${docker images -q -f dangling=true} : delete untagged images
 docker rmi ${docker images -q} : delete all images
 docker volume rm ${docker volume ls -f dangling=true -q} : remove all dangling volumes
-
+docker build -t spring-boot-docker . : build image from docker file in current directory and tag it 
 
 docker run -d --hostname ancm-rabbit --name some-rabbit -p 8080:15672 -p 5671:5671 -p 5672:5672 rabbitmq:3.8-rc-management : start rabbitmq
 docker run --name ancm-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v C:/Users/chamo/programmation/formations/dockerdata/mysql:/var/lib/mysql -p 3306:3306 -d mysql
+
+
+
+docker run -d centos tail -f /dev/null : run centosOS image
+docker exec -it quirky_banach bash : connect to centos (yum install java to install java)
+
+
 
 
 # Resources
