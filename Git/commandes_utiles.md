@@ -76,9 +76,9 @@
 - git push --delete <nom_branche_a_suppr>
 
 ## Merge Branches
-git rebase <nom_branche_sur_laquelle_rebase>
-git merge <nom_branche_a_merger>
-git rebase --continue
+- git rebase <nom_branche_sur_laquelle_rebase>
+- git merge <nom_branche_a_merger>
+- git rebase --continue
 
 
 
